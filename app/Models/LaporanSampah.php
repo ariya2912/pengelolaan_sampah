@@ -1,12 +1,13 @@
 <?php
-
-// app/Models/LaporanSampah.php
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class LaporanSampah extends Model
 {
+    use HasFactory;
+
     protected $table = 'laporan_sampah';
 
     protected $fillable = [
@@ -23,4 +24,5 @@ class LaporanSampah extends Model
         return $this->belongsTo(User::class);
     }
 }
+
 

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>@yield('title', 'Pengelolaan Sampah')</title>
+    <link rel="icon" href="{{ asset('adminlte/img/logo.png') }}" type="image/png">
 
-    <!-- AdminLTE CSS -->
     <link rel="stylesheet" href="{{ asset('adminlte/plugins/fontawesome-free/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('adminlte/css/adminlte.min.css') }}">
     <link rel="stylesheet" href="{{ asset('adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
